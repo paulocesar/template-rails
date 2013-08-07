@@ -10,8 +10,6 @@ gem 'devise', '3.0.0.rc'
 gem 'cancan'
 gem 'role_model'
 gem 'unicorn'
-gem 'anjlab-bootstrap-rails' 
-gem 'bootstrap-glyphicons'
 gem 'haml-rails'
 gem 'html2haml'
 
