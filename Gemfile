@@ -6,7 +6,7 @@ gem 'rails', '4.0.0'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 gem 'pg'
-gem 'devise', github: 'plataformatec/devise', branch: 'rails4'
+gem 'devise', '3.0.0.rc'
 gem 'cancan'
 gem 'role_model'
 gem 'unicorn'
