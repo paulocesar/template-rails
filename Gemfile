@@ -40,6 +40,11 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development do
+  gem 'rb-readline'
+  gem 'guard'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
