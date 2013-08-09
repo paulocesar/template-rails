@@ -7,11 +7,12 @@ gem 'rails', '4.0.0'
 #gem 'sqlite3'
 gem 'pg'
 gem 'devise', '3.0.0.rc'
-gem 'cancan'
-gem 'role_model'
-gem 'unicorn'
-gem 'haml-rails'
-gem 'html2haml'
+gem 'cancan', '1.6.10'
+gem 'role_model', '0.8.1'
+gem 'unicorn', '4.6.3'
+gem 'haml-rails', '0.4'
+gem 'html2haml', '1.0.1'
+gem "paypal-sdk-adaptivepayments", "~> 1.103.0"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
