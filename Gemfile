@@ -40,7 +40,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'rspec-rails', :group => [:test, :development]
+gem 'rspec-rails', '2.14.0', :group => [:test, :development]
 
 group :test do
   gem 'rb-readline', '0.5.0'
