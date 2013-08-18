@@ -1,7 +1,7 @@
 TemplateRails::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-  #devise
+  #
   #config.action_mailer.default_url_options = { :host => 'localhost8080' }
 
   # Code is not reloaded between requests.

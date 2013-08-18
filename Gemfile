@@ -40,9 +40,14 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-group :development do
-  gem 'rb-readline'
-  gem 'guard'
+gem 'rspec-rails', :group => [:test, :development]
+
+group :test do
+  gem 'rb-readline', '0.5.0'
+  gem 'factory_girl_rails', '4.2.1'
+  gem 'capybara', '2.1.0'
+  gem 'guard-rspec', '3.0.2'
+  gem 'guard-spork', '1.5.1'
 end
 
 # Use ActiveModel has_secure_password
